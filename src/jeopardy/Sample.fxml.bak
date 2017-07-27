@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#handleKey" prefHeight="411.0" prefWidth="560.0" xmlns:fx="http://javafx.com/fxml" fx:controller="jeopardy.GuiController">
+  <children>
+    <GridPane fx:id="gpane" alignment="CENTER" layoutX="38.0" minHeight="48.0" minWidth="-Infinity" pickOnBounds="true" prefHeight="270.9999000000025" prefWidth="349.9999000000025" AnchorPane.topAnchor="34.0">
+      <children>
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC3L1" prefWidth="56.0" text="100" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC4L1" prefWidth="56.0" text="100" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC5L1" prefWidth="56.0" text="100" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC1L1" prefWidth="56.0" text="100" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC1L2" prefWidth="56.0" text="200" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC1L3" prefWidth="56.0" text="300" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC1L4" prefWidth="56.0" text="400" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC1L5" prefWidth="56.0" text="500" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC2L1" prefWidth="56.0" text="100" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC2L2" prefWidth="56.0" text="200" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC2L3" prefWidth="56.0" text="300" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC3L2" prefWidth="56.0" text="200" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC3L3" prefWidth="56.0" text="300" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC2L4" prefWidth="56.0" text="400" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button minWidth="-Infinity" mnemonicParsing="false" text="200" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC4L2" prefWidth="56.0" text="200" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC5L2" prefWidth="56.0" text="200" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC4L3" prefWidth="56.0" text="300" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC5L3" prefWidth="56.0" text="300" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC3L4" prefWidth="56.0" text="400" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC4L4" prefWidth="56.0" text="400" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC5L4" prefWidth="56.0" text="400" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC3L5" prefWidth="56.0" text="500" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+        <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC4L5" prefWidth="56.0" text="500" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+        <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC5L5" prefWidth="56.0" text="500" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+        <Button contentDisplay="CENTER" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleC2L5" prefWidth="56.0" text="500" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints fillWidth="true" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Label fx:id="lblName1" layoutX="431.0" layoutY="57.0" text="Name 1" />
+    <Label fx:id="lblName2" layoutX="431.0" layoutY="93.0" text="Name 2" />
+    <Label fx:id="lblName3" layoutX="431.0" layoutY="133.0" text="Name 3" />
+    <Label fx:id="lblScore1" layoutX="485.0" layoutY="57.0" text="Score 1" />
+    <Label fx:id="lblScore2" layoutX="485.0" layoutY="93.0" text="Score 2" />
+    <Label fx:id="lblScore3" layoutX="485.0" layoutY="133.0" text="Score 3" />
+    <MenuBar layoutX="0.0" layoutY="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleStart" text="Start Game" />
+            <MenuItem mnemonicParsing="false" onAction="#handleReset" text="Reset Board" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Label fx:id="lblQuestion" layoutX="38.0" layoutY="312.0" prefWidth="343.0" text="Question will be displayed here." textAlignment="CENTER" wrapText="true">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
